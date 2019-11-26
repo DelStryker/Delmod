@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Delmod_Archetypes" />
+        <Description value="Adds 1 New Archetype for Delmod" />
+		<Author value="DelStryker" />
+		<Version value="1.0" />
+		<Website value="" />
+    </ModInfo>
+</xml>
