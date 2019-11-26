@@ -1,0 +1,62 @@
+<delmod>
+	<append xpath="/blocks">
+		<block name="Double Door">
+     		<property name="CustomIcon" value="jailDoorStatic"/>
+			<property name="CustomIconTint" value="#ff2b2b"/>
+			<property name="Class" value="DoorSecure"/>
+			<property name="Material" value="Msteel"/>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+			<property name="Tag" value="Door"/>
+			<property name="Place" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsDoubleDoors.unity3d?DelsDoubleDoors.prefab"/>
+					<property name="ModelOffset" value="0,.5,0"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="Stacknumber" value="1"/>
+	<property name="OpenSound" value="open_door_metal"/>
+	<property name="CloseSound" value="close_door_metal"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="10"/> </property>
+				<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+				<drop event="Destroy" count="0"/>
+				<drop event="Destroy" name="resourceSpring" count="0,2" prob="1" tool_category="Disassemble"/>
+				<drop event="Destroy" name="resourceMechanicalParts" count="0,2" prob="1" tool_category="Disassemble"/>
+				<drop event="Harvest" name="resourceScrapIron" count="20,60"/>
+				<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building"/>
+		</block>
+		<block name="Big Double Door">
+     		<property name="CustomIcon" value="jailDoorStatic"/>
+			<property name="CustomIconTint" value="#ff2b2b"/>
+			<property name="Class" value="DoorSecure"/>
+			<property name="Material" value="Msteel"/>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+			<property name="Tag" value="Door"/>
+			<property name="Place" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsDoubleDoors.unity3d?BigDoors.prefab"/>
+					<property name="ModelOffset" value="0,.5,0"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="2,3,1"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="Stacknumber" value="1"/>
+	<property name="OpenSound" value="open_door_metal"/>
+	<property name="CloseSound" value="close_door_metal"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="10"/> </property>
+				<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+				<drop event="Destroy" count="0"/>
+				<drop event="Destroy" name="resourceSpring" count="0,2" prob="1" tool_category="Disassemble"/>
+				<drop event="Destroy" name="resourceMechanicalParts" count="0,2" prob="1" tool_category="Disassemble"/>
+				<drop event="Harvest" name="resourceScrapIron" count="20,60"/>
+				<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building"/>
+		</block>
+	</append>
+</delmod>

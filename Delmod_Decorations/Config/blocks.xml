@@ -1,0 +1,115 @@
+<delmod>
+	<append xpath="/blocks" >	
+	
+		<block name="Tool Cabinet">
+			<property name="Extends" value="cntLockersShortOpen"/>
+			<property name="CreativeMode" value="Player"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsIndustrial.unity3d?DelsCabinetPrefab.prefab"/>
+					<property name="CustomIcon" value="ToolCabinet" />
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="42"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,2,1"/>
+		</block>
+
+		<block name="Dels Red Chair">
+			<property name="Material" value="Mleather"/>
+			<property name="Weight" value="40"/>
+			<property name="Path" value="solid"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsChairs.unity3d?DelsRedLeatherChairPrefab.prefab"/>
+					<property name="CustomIcon" value="DelsCube" />
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="FuelValue" value="90"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="CanPickup" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceLeather" value="8"/>
+				<property name="resourceMechanicalParts" value="4"/>
+				<property name="resourceForgedIron" value="3"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceLeather" count="2,4"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5,15"/>
+			<property name="EconomicValue" value="65"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+		</block>
+
+		<block name="Dels Sci Fi Chair">
+			<property name="Material" value="Mleather"/>
+			<property name="Weight" value="40"/>
+			<property name="Path" value="solid"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsSFChair.unity3d?DelsSciFiChair.prefab"/>
+					<property name="CustomIcon" value="RedSciFiChair" />
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="FuelValue" value="90"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="CanPickup" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceLeather" value="8"/>
+				<property name="resourceMechanicalParts" value="4"/>
+				<property name="resourceForgedIron" value="3"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceLeather" count="2,4"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5,15"/>
+			<property name="EconomicValue" value="65"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+		</block>
+
+		<block name="Dels Flag">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="blockHardenedMulti" />
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="Path" value="solid"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsFlag.unity3d?DelsFlagPrefab.prefab"/>
+					<property name="CustomIcon" value="DelsCube" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,4,1"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="LootList" value="42"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="fdecor,fother"/>
+		</block>
+
+		<!--block name="Dels Flag 2">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="blockHardenedMulti" />
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="Path" value="solid"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsFlag2.unity3d?DelsFlagPrefab.prefab"/>
+					<property name="CustomIcon" value="DelsCube" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,4,1"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="LootList" value="42"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="fdecor,fother"/>
+		</block-->
+
+		<block name="Dels Lion">
+			<property name="Extends" value="concreteNoUpgradeMaster"/>
+					<property name="Shape" value="ModelEntity"/>	
+					<property name="Model" value="#@modfolder:Resources/DelsLion.unity3d?DelsLion1Prefab.prefab"/>
+					<property name="CustomIcon" value="DelsCube" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,2,2"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="FilterTags" value="fdecor,fother"/>
+		</block>
+	</append>
+
+</delmod>

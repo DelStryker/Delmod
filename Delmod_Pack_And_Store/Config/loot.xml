@@ -1,0 +1,23 @@
+<delmod>
+    <!-- Player Backpack-->
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">8,10</set>
+    <!-- Nightstand, wooden desk: pistol, ammo, magazines, books-->
+	<set xpath="/lootcontainers/lootcontainer[@id='6']/@size">8,6</set>
+    <!-- Medicine cabinets-->
+	<set xpath="/lootcontainers/lootcontainer[@id='7']/@size">6,6</set>
+    <!-- Cabinets-->
+	<set xpath="/lootcontainers/lootcontainer[@id='17']/@size">8,9</set>
+    <!-- Refridgerator-->
+	<set xpath="/lootcontainers/lootcontainer[@id='47']/@size">8,9</set>
+    <!-- Munitions Box & Gunsafe-->
+	<set xpath="/lootcontainers/lootcontainer[@id='40']/@size">8,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='42']/@size">8,9</set>
+    <!-- Lockers -->
+	<set xpath="/lootcontainers/lootcontainer[@id='43']/@size">8,6</set>
+    <!-- Bookcase cabinets-->
+	<set xpath="/lootcontainers/lootcontainer[@id='49']/@size">6,6</set>
+	<!-- Medical Cabinet and Pill Case-->
+	<set xpath="/lootcontainers/lootcontainer[@id='106']/@size">6,6</set>
+	<!-- Metal Desk -->
+    <set xpath="/lootcontainers/lootcontainer[@id='24']/@size">8,6</set>
+</delmod>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Delmod_Recipes_Fix" />
+		<Description value="Changes and adds some recipe's, Adds and modifies some blocks.  See README for details" />
+		<Author value="DelStryker" />
+		<Version value="1.03" />
+		<Website value="" />
+	</ModInfo>
+</xml>

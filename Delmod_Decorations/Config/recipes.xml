@@ -1,0 +1,10 @@
+<delmod>
+	
+	<!-- ================================  	ADD Recipes  ================================ -->
+	<append xpath="/recipes" >	
+		<recipe name="Tool Cabinet" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="4"/>
+		</recipe>
+	</append>
+
+</delmod>
