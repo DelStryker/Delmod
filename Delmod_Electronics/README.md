@@ -20,6 +20,6 @@ If the "Mods" folder does not exist within your "7 Days to Die" folder, simply c
 
 Extract/Copy the modlet folder into your "7 Days To Die\Mods" folder. 
 
-Example: "C:\Program Files (x86)\Steam\steamapps\common\7 Days to Die\Mods\Delmod_Kitchen"
+Example: "C:\Program Files (x86)\Steam\steamapps\common\7 Days to Die\Mods\Delmod_Electronics"
 
 
