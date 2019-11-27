@@ -38,7 +38,7 @@
 		<item name="apparelShades" count="1" />
 		<item name="medicalFirstAidKit" count="10"/>
 		<item name="medicalFirstAidBandage" count="20"/>		
-		<item name="medicalFirstAidSplint" count="5"/>		
+		<item name="medicalSplint" count="5"/>		
 		<item name="drinkJarBoiledWater" count="12,24" />
 		<item name="drinkJarCoffee" count="15,25" />
 		<item group="airdropfood" count="6,8" />
