@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Delmod_Startup_Packs" />
+        <Description value="Startup Pack Modlet New Startup Packs" />
+		<Author value="DelStryker" />
+		<Version value="2.0" />
+		<Website value="" />
+    </ModInfo>
+</xml>

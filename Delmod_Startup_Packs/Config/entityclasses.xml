@@ -1,0 +1,5 @@
+<delmod>
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">Bug-Out Bag 1 (Locked),Bug-Out Bag 2 (Locked),keystoneBlock</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">Bug-Out Bag 1 (Locked),Bug-Out Bag 2 (Locked),keystoneBlock</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">Bug-Out Bag 1 (Locked),Bug-Out Bag 2 (Locked),keystoneBlock</set> 
+</delmod>

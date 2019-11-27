@@ -1,0 +1,72 @@
+<delmod>
+
+<!-- Loot Groups with contents of bags -->
+<!-- nsertAfter xpath="/lootcontainers/lootgroup[@name='BuriedStashChest']" >
+	<lootgroup name="SurvivorClothes" count="all">
+		<item group="shirtLongAll"/>
+		<item group="pantsAll"/>
+		<item group="denimShortsPantsAll"/>
+		<item group="bandanaAll"/>
+		<item group="tshirtAll"/>
+		<item group="lightArmor" prob="0.1"/>
+		<item group="leatherArmor" prob="0.03"/>
+		<item group="militaryArmor" prob="0.5"/>
+		<item group="scrapArmor" prob="0.05"/>
+		<item group="ironArmor" prob="0.03"/>
+	</lootgroup>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SurvivorClothes']" >
+	<lootgroup name="BootsAll" count="1">
+		<item name="wornBoots"/>
+		<item name="cowboyBoots"/>
+		<item name="armorMilitaryBoots"/>
+	</lootgroup>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='BootsALL']" -->
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='weaponParts']" >
+	<lootgroup name="BOB1" count="all">  
+		<!--item group="SurvivorClothes" /-->
+		<!--item group="BootsALL" /-->
+		<item name="apparelArmyShirt" count="1" />
+		<item name="apparelArmyPants" count="1" />
+		<item name="armorMilitaryLegs" count="1" quality="6,6" />
+		<item name="armorMilitaryGloves" count="1" quality="6,6" />
+		<item name="armorMilitaryHelmet" mods="modArmorHelmetLight,modArmorWaterPurifier" count="1" quality="6,6" />
+		<item name="armorMilitaryVest" mods="modArmorBandolier, modArmorInsulatedLiner, modArmorCoolingMesh" count="1" quality="6,6" />
+		<item name="armorMilitaryBoots" count="1" quality="6,6" />
+		<item name="apparelShades" count="1" />
+		<item name="medicalFirstAidKit" count="10"/>
+		<item name="medicalFirstAidBandage" count="20"/>		
+		<item name="medicalFirstAidSplint" count="5"/>		
+		<item name="drinkJarBoiledWater" count="12,24" />
+		<item name="drinkJarCoffee" count="15,25" />
+		<item group="airdropfood" count="6,8" />
+	</lootgroup>  
+	<lootgroup name="BOB2" count="all"> 
+		<item name="gunAK47" mods="modGunRetractingStock,modGunMagazineExtender,modGunScopeMedium,modGunTriggerGroupSemi,modGunForegrip" count="1" quality="6,6" />		
+		<item name="gunPistol" mods="modGunMagazineExtender,modGunScopeSmall,modGunTriggerGroupSemi" count="1" quality="6,6" />
+		<item name="ammo9mmBulletBall" count="150,300"/>
+		<item name="ammo762mmBulletBall" count="250,500"/>
+		<item name="meleeToolKnifeIron" count="1" quality="6,6" />
+		<item name="meleeToolWrench" count="1" quality="6,6" />
+		<item name="meleeToolFireaxeIron" count="1" quality="6,6" />
+		<item name="meleeToolShovelIron" count="1" quality="6,6" />
+		<item name="meleeToolClawHammer" count="1" quality="6,6" />
+		<item name="lanternLight_player" count="1" />
+		<item name="resourceRepairKit" count="50" />
+		<item name="casinoCoin" count="10000"/>
+	</lootgroup>  
+</insertAfter>
+<!-- Loot Containers  -->
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']" >
+	<lootcontainer id="221" count="1" size="6,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
+		<item group="BOB1" />
+	</lootcontainer>
+	<lootcontainer id="222" count="1" size="6,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
+		<item group="BOB2" />
+	</lootcontainer>
+</insertAfter>
+
+</delmod>
