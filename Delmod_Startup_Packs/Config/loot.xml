@@ -35,9 +35,9 @@
 		<item name="armorMilitaryHelmet" mods="modArmorHelmetLight" count="1" quality="6,6" />
 		<item name="armorMilitaryVest" mods="modArmorBandolier" count="1" quality="6,6" />
 		<item name="armorMilitaryBoots" count="1" quality="6,6" />
-		<item name="modArmorInsulatedLiner count="1" />
-		<item name="modArmorCoolingMesh count="1" />
-		<item name="modArmorWaterPurifier count="1" />
+		<item name="modArmorInsulatedLiner" count="1" />
+		<item name="modArmorCoolingMesh" count="1" />
+		<item name="modArmorWaterPurifier" count="1" />
 		<item name="apparelShades" count="1" />
 		<item name="medicalFirstAidKit" count="10"/>
 		<item name="medicalFirstAidBandage" count="20"/>		
