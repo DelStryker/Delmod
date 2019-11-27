@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Delmod Tools" />
-		<Description value="Craftable workstation to craft parts" />
+		<Name value="Delmod 7D2D Mods" />
+		<Description value="Del Strykers Mods for 7 Days To Die" />
 		<Author value="DelStryker" />
-		<Version value="1.0.0" />
+		<Version value="2.0.0" />
 	</ModInfo>
 </xml>
