@@ -32,9 +32,12 @@
 		<item name="apparelArmyPants" count="1" />
 		<item name="armorMilitaryLegs" count="1" quality="6,6" />
 		<item name="armorMilitaryGloves" count="1" quality="6,6" />
-		<item name="armorMilitaryHelmet" mods="modArmorHelmetLight,modArmorWaterPurifier" count="1" quality="6,6" />
-		<item name="armorMilitaryVest" mods="modArmorBandolier, modArmorInsulatedLiner, modArmorCoolingMesh" count="1" quality="6,6" />
+		<item name="armorMilitaryHelmet" mods="modArmorHelmetLight" count="1" quality="6,6" />
+		<item name="armorMilitaryVest" mods="modArmorBandolier" count="1" quality="6,6" />
 		<item name="armorMilitaryBoots" count="1" quality="6,6" />
+		<item name="modArmorInsulatedLiner count="1" />
+		<item name="modArmorCoolingMesh count="1" />
+		<item name="modArmorWaterPurifier count="1" />
 		<item name="apparelShades" count="1" />
 		<item name="medicalFirstAidKit" count="10"/>
 		<item name="medicalFirstAidBandage" count="20"/>		
@@ -44,8 +47,8 @@
 		<item group="airdropfood" count="6,8" />
 	</lootgroup>  
 	<lootgroup name="BOB2" count="all"> 
-		<item name="gunAK47" mods="modGunRetractingStock,modGunMagazineExtender,modGunScopeMedium,modGunTriggerGroupSemi,modGunForegrip" count="1" quality="6,6" />		
-		<item name="gunPistol" mods="modGunMagazineExtender,modGunScopeSmall,modGunTriggerGroupSemi" count="1" quality="6,6" />
+		<item name="gunAK47" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" count="1" quality="6,6" />		
+		<item name="gunPistol" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" count="1" quality="6,6" />
 		<item name="ammo9mmBulletBall" count="150,300"/>
 		<item name="ammo762mmBulletBall" count="250,500"/>
 		<item name="meleeToolKnifeIron" count="1" quality="6,6" />
